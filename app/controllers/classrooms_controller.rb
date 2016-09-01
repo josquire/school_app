@@ -35,7 +35,7 @@ class ClassroomsController < ApplicationController
   def destroy
     school_id = @classroom.school_id
     @classroom.destroy
-    redirect_to school_classroom_path(@school, @classroom)
+    redirect_to school_path(@school)
   end
 
   private
