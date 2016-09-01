@@ -1,0 +1,23 @@
+<div class="card">
+  <h1><%= @school.name %></h1>
+  <p>Name of School: <%= @school.name %></p>
+  <p>Level: <%= @school.level %></p>
+  <p>Number in Student Body: <%= @school.student_body %></p>
+
+  <% if @classrooms.any? %>
+    <% @classrooms.each do |room| %>
+    <h3><%= link_to room.teacher, school_classroom_path(@school, room) %></h3>
+    <% end %>
+  <% else %>
+    <h3>There are no classrooms at this time.</h3>
+  <% end %>
+
+  <hr />
+</div>
+
+<div>
+    <%= link_to 'Create Classroom', new_school_classroom_path(@school), class: 'btn' %>
+    <%= link_to 'Edit', edit_school_path(@school), class: 'btn' %>
+    <%= link_to 'Delete', school_path(@school), method: :delete, class: 'btn', data: {confirm: 'Really Delete?'} %>
+    <%= link_to 'All Schools', schools_path, class: 'btn' %>
+</div>

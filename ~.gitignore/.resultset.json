@@ -1,0 +1,86 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/josquire/Desktop/DPL/week5/school_app/app/controllers/classrooms_controller.rb": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/josquire/Desktop/DPL/week5/school_app/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/josquire/Desktop/DPL/week5/school_app/app/models/school.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/josquire/Desktop/DPL/week5/school_app/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/josquire/Desktop/DPL/week5/school_app/app/models/classroom.rb": [
+        1,
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1472696144
+  }
+}

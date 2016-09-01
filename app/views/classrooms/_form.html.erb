@@ -1,0 +1,9 @@
+<%= form_for [@school, @classroom] do |f| %>
+<%= f.label :teacher %>
+<%= f.text_field :teacher %>
+<%= f.label :grade %>
+<%= f.text_field :grade %>
+<%= f.label :number_students %>
+<%= f.text_field :number_students %>
+<%= f.submit nil%>
+<% end %>

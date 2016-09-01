@@ -1,0 +1,13 @@
+<div class="card">
+  <h1><%= "#{@classroom.teacher} class" %></h1>
+  <p>Grade: <%= @classroom.grade %></p>
+  <p>Number of Students: <%= @classroom.number_students %></p>
+
+  <hr />
+</div>
+
+<div>
+    <%= link_to 'Edit', edit_school_classroom_path(@school, @classroom), class: 'btn' %>
+    <%= link_to 'Delete', school_classroom_path(@school, @classroom), method: :delete, class: 'btn', data: {confirm: 'Really Delete?'} %>
+    <%= link_to 'All Schools', schools_path, class: 'btn' %>
+</div>
